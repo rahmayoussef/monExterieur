@@ -1,0 +1,26 @@
+.accueilCover {
+  width: 100%;
+  padding-top: 70px;
+}
+
+/******************************
+           ********Responsive**************
+                               ************************/
+/*******
+     IPad 
+     ***********/
+@media only screen and (max-width: 768px) {
+  .accueilCover > .imgCouverture {
+    width: 1000px;
+  }
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .accueilCover .imgCouverture {
+    width: 375px;
+    margin-top: -70px;
+  }
+}

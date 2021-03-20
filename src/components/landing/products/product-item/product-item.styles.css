@@ -1,0 +1,55 @@
+.Product-item {
+  width: 260px;
+  height: 355px;
+  border: 1px solid #e2e2e2;
+}
+
+.Product-item > .imageProduct > img {
+  width: 260px;
+  height: 253px;
+  border: 1px solid #e2e2e2;
+}
+.Product-item > .imageProduct :hover {
+  cursor: pointer;
+  width: 260px;
+  height: 188px;
+}
+.Product-item > .details > .product-name {
+  text-align: left;
+  font: normal normal normal 16px/20px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+
+.Product-item > .details > .price {
+  color: var(--unnamed-color-b7b7b7);
+  text-align: left;
+  font: normal normal bold 23px/29px PT Sans;
+  letter-spacing: 0px;
+  color: #b7b7b7;
+}
+
+#voirDetails {
+  color: var(--unnamed-color-7daf3f);
+  text-align: left;
+  font: normal normal bold 16px/20px PT Sans;
+  color: #7daf3f;
+  text-transform: uppercase;
+  opacity: 0;
+}
+.Product-item:hover #voirDetails {
+  opacity: 1;
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .Product-item {
+    height: 300px;
+    margin-left: -60px;
+  }
+  .Product-item > .imageProduct > img {
+    height: 200px;
+  }
+}

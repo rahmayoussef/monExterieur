@@ -1,0 +1,92 @@
+.contenu {
+  display: grid;
+  grid-template-columns: 20% 70% 10%;
+  position: absolute;
+  margin-left: 139px;
+  margin-top: 100px;
+}
+.esp {
+  margin-top: 80px;
+  background-color: #653d36;
+  margin-left: 139px;
+}
+#E {
+  margin-top: -140px;
+  transform: rotate(-20deg);
+  margin-left: -20px;
+}
+.esp:hover {
+  cursor: pointer;
+  background-color: #7daf3f;
+  overflow: hidden;
+  transition: 0.5s ease;
+}
+
+.contenu > .config {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.contenu > .left {
+  margin-top: 50px;
+  margin-left: 70px;
+  background: transparent;
+}
+
+#paragraphe {
+  font: normal normal normal 20px/26px PT Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+#configEspace {
+  text-align: left;
+  font: normal normal bold 33px/43px PT Sans;
+  letter-spacing: 0px;
+  color: #ffffff;
+  height: 110px;
+}
+#containerEspace {
+  display: flex;
+  flex-direction: row;
+}
+#containerEspace {
+  margin-left: 60px;
+}
+
+#configIcon {
+  background: transparent url("../../../assets/config.svg");
+  margin: 50px -100px;
+}
+/******************************
+           ********Responsive**************
+                               ************************/
+/* IPad */
+@media only screen and (max-width: 768px) {
+  .esp {
+    margin-left: 80px;
+    width: 780px;
+  }
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .contenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .esp {
+    height: 700px;
+    width: 350px;
+    margin-left: 10px;
+  }
+  #containerEspace {
+    display: flex;
+    flex-direction: column;
+    margin-left: -70px;
+  }
+  #configIcon {
+    margin-left: 70px;
+  }
+}

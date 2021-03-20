@@ -1,0 +1,45 @@
+.ProductCover > img {
+  margin-top: 70px;
+}
+
+.ProductCover > .pc {
+  margin-top: -130px;
+  margin-left: 140px;
+}
+
+.ProductCover > .pc > .NosProduits {
+  color: var(--unnamed-color-7daf3f);
+  text-align: left;
+  font: normal normal bold 47px/61px PT Sans;
+  color: #7daf3f;
+}
+
+.ProductCover > .pc > .AccBout {
+  text-align: center;
+  font: normal normal normal 16px/20px PT Sans;
+  color: #ffffff;
+}
+
+/******************************
+           ********Responsive**************
+                               ************************/
+/* IPad */
+@media only screen and (max-width: 768px) {
+  .ProductCover > img {
+    width: 1000px;
+  }
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .ProductCover > img {
+    margin-top: -30px;
+    width: 375px;
+    height: 200px;
+  }
+  .ProductCover > .pc > .NosProduits {
+    font: normal normal bold 16px/16px PT Sans;
+  }
+}

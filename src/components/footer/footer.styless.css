@@ -1,0 +1,108 @@
+.footer {
+  display: grid;
+  grid-template-columns: 25% 25% 20% 30%;
+  width: 1366px;
+  height: 307px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.footer > .logo {
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.footer > .logo > img {
+  width: 200px;
+}
+
+#footerTitles {
+  font: normal normal bold 18px/23px PT Sans;
+  margin-top: 50px;
+}
+
+#itm > p {
+  text-align: left;
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #6f6c6c;
+}
+
+#footerAdress {
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+#footerWeek {
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+#footerTel {
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+#samedi {
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #1f1f1f;
+}
+#contact {
+  margin-left: -30px;
+}
+#itmes {
+  text-align: left;
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #6f6c6c;
+}
+#numberphone {
+  text-align: left;
+  font: normal normal normal 14px/18px PT Sans;
+  letter-spacing: 0px;
+  color: #6f6c6c;
+}
+
+.footer > .time {
+font: normal normal normal 14px/18px PT Sans;
+color: #6F6C6C;
+}
+
+/******************************
+           ********Responsive**************
+                               ************************/
+/* IPad */
+@media only screen and (max-width: 768px) {
+  .footer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 40% 60%;
+  height: 400px;
+  margin-top: 10px;
+}
+#contact {
+margin-left: 100px;
+}
+}
+
+ 
+ /****************
+            ***IPhoneX***
+                        *******************/
+                        @media only screen and (max-width: 375px) {
+                          .footer {
+                            display: flex;
+                            flex-direction: column;
+                            
+                          }
+                          .logo{
+                            justify-content: center;
+                          }
+                          .lienutils{
+                            margin-left: 100px;
+                          }
+                          .contact{
+                            justify-content: center;
+                          }
+                          .time{
+                            margin-left: 100px;
+                          }
+                         }

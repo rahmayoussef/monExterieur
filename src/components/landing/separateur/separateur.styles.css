@@ -1,0 +1,25 @@
+.separateur {
+  border-bottom: solid 6px #7daf3f;
+  width: 1150px;
+  margin-left: 100px;
+}
+
+/******************************
+           ********Responsive**************
+                               ************************/
+/* IPad */
+@media only screen and (max-width: 768px) {
+  .separateur {
+    width: 750px;
+    margin-left: 100px;
+  }
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .separateur {
+    width: 180px;
+  }
+}

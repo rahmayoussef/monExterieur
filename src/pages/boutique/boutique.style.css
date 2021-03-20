@@ -1,0 +1,21 @@
+.boutique {
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+.boutique > .categoriesProducts {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .boutique > .categoriesProducts {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 0%;
+    margin-bottom: 400px;
+  }
+}

@@ -1,0 +1,78 @@
+.realization {
+  display: grid;
+  grid-template-columns: 444px 908px;
+  width: 1227px;
+  margin-top: 140px;
+}
+.realization > .panneauBois {
+  margin-left: 176px;
+  width: 444px;
+  height: 425px;
+  background-color: white;
+  margin-top: 95px;
+  position: absolute;
+}
+#titleContainer {
+  margin-top: -80px;
+  font: normal normal bold 33px/43px PT Sans;
+  color: #1f1f1f;
+}
+#title2 {
+  font: normal normal bold 25px/32px PT Sans;
+  color: #1f1f1f;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+#text {
+  font: normal normal normal 14px/25px PT Sans;
+  color: #504e4e;
+  margin-left: 50px;
+}
+.realization > .realisationImage > img {
+  margin-left: 458px;
+  width: 908px;
+  height: 560px;
+}
+
+#slide {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: #6f6c6c;
+  width: 130px;
+  height: 62px;
+  margin: 18% 70%;
+  white-space: 0px;
+  border: 2px solid #6f6c6c;
+}
+/***************
+         ***************Cusor Effects***************
+                                           ********************/
+/* .realization  > .realisationImage:hover img{ 
+    cursor: pointer;
+    transform: scale(1.01);
+}  */
+.realization > .panneauBois:hover #pb {
+  cursor: pointer;
+  background-color: #7daf3f;
+  transform: scale(1);
+  margin-top: 36px;
+  height: 425px;
+  position: relative;
+}
+.realization > .panneauBois :hover #title2 {
+  color: white;
+  margin-top: 30px;
+}
+.realization > .panneauBois :hover #text {
+  color: white;
+}
+/******************************
+           ********Responsive**************
+                               ************************/
+/* IPad */
+@media only screen and (max-width: 768px) {
+  .realization > .realisationImage > img {
+    margin-left: 300px;
+    width: 700px;
+  }
+}

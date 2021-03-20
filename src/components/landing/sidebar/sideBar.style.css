@@ -1,0 +1,48 @@
+.sidebar {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  height: 900px;
+}
+
+.categories {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  margin-top: 40px;
+  margin-left: 139px;
+  width: 260px;
+  height: 369px;
+  background-color: white;
+  text-align: center;
+}
+.categories > .item {
+  border: 1px solid #e2e2e2;
+}
+.categories > .item > p {
+  text-align: left;
+  color: #6f6c6c;
+  margin-left: 20px;
+}
+.categories > .Categorietem > p {
+  font: normal normal bold 20px/26px PT Sans;
+  color: #1f1f1f;
+  margin-left: 20px;
+}
+.categories > .lameBois > p {
+  text-align: left;
+  color: #6f6c6c;
+  margin-left: 20px;
+}
+.categories > .lameBois {
+  border: 1px solid #e2e2e2;
+  background-color: #7daf3f;
+}
+
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .sidebar {
+    margin-left: -80px;
+    margin-top: -400px;
+  }
+}
