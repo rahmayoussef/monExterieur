@@ -47,10 +47,6 @@
 /***************
          ***************Cusor Effects***************
                                            ********************/
-/* .realization  > .realisationImage:hover img{ 
-    cursor: pointer;
-    transform: scale(1.01);
-}  */
 .realization > .panneauBois:hover #pb {
   cursor: pointer;
   background-color: #7daf3f;
@@ -74,5 +70,45 @@
   .realization > .realisationImage > img {
     margin-left: 300px;
     width: 700px;
+  }
+}
+/****************
+            ***IPhoneX***
+                        *******************/
+@media only screen and (max-width: 375px) {
+  .realization {
+    grid: none;
+    width: 375px;
+    margin-left: -150px;
+    margin-top: -10px;
+  }
+  .realization > .panneauBois {
+    height: 470px;
+    width: 325px;
+  }
+  #pb {
+    width: 330px;
+    height: 470px;
+  }
+  #text {
+    width: 250px;
+  }
+  #slide {
+    margin-top: -10px;
+    margin-left: 191px;
+  }
+  .realization > .realisationImage {
+    margin-top: 200px;
+    margin-left: -300px;
+  }
+  .realization > .realisationImage > img{
+    width: 530px;
+  }
+  
+  .realization > .panneauBois:hover #pb {
+    height: 470px;
+  }
+  .realization > .panneauBois > #pb:hover #slide {
+    margin-top: 20px;
   }
 }
