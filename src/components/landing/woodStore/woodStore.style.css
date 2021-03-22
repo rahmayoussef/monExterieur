@@ -63,22 +63,34 @@
             ***IPhoneX***
                         *******************/
 @media only screen and (max-width: 375px) {
- 
-  
-
+  .woodStore {
+    grid: none;
+  }
   .woodStore > .part1 > .img1 {
-    width: 350px;
-    height: 300px;
+    margin-top: 80px;
+    width: 375px;
+    height: 400px;
   }
   .woodStore > .part2 {
+    margin-top: 80px;
     margin-left: 30px;
-  }
-  .woodStore > .part2 > .img2 {
-    width: 200px;
-    height: 150px;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
   }
   .woodStore > .part2 > .img2 > img {
-    width: 200px;
+    width: 300px;
+    height: 150px;
+  }
+  #notremagasin {
+    margin-left: -250px;
+  }
+  .part2 > p {
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  .woodStore > .part2:hover img {
     height: 100px;
   }
 }
